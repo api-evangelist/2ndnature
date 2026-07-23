@@ -1,8 +1,27 @@
 aid: 2ndnature
 name: 2NDNATURE
-description: 2NDNATURE is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 2NDNATURE is a Santa Cruz, California environmental technology company
+  that builds cloud-based stormwater management and water-quality software. Its flagship
+  product, 2NFORM, is GIS-powered MS4/NPDES compliance software that helps municipalities
+  automate stormwater permit reporting, track assets and BMPs, detect illicit discharges,
+  and run construction and post-construction programs. Rainsteward is its corporate
+  water-stewardship platform for reducing costs and maximizing the value of stormwater
+  investments. The company embeds peer-reviewed environmental science into an enterprise
+  SaaS platform and is backed by Techstars. No public developer API program has been
+  identified; the 2NFORM and Rainsteward applications are gated SaaS logins.
 url: https://raw.githubusercontent.com/api-evangelist/2ndnature/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.2ndnaturewater.com/wp-content/themes/2ndnaturetheme/src/assets/images/2nform-white-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,6 +33,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Stormwater
+- Water Quality
+- Environmental Compliance
+- GIS
+- MS4
+- Municipal Software
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://2ndnaturewater.com/
+- type: Blog
+  url: https://www.2ndnaturewater.com/resources/?type=4
+- type: Support
+  url: https://www.2ndnaturewater.com/contact/
+- type: PrivacyPolicy
+  url: https://www.2ndnaturewater.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/2ndnaturewater
+- type: Login
+  url: https://2nform.com/
+- type: DomainSecurity
+  url: security/2ndnature-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
