@@ -10,6 +10,17 @@ description: 2NDNATURE is a Santa Cruz, California environmental technology comp
   SaaS platform and is backed by Techstars. No public developer API program has been
   identified; the 2NFORM and Rainsteward applications are gated SaaS logins.
 url: https://raw.githubusercontent.com/api-evangelist/2ndnature/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
